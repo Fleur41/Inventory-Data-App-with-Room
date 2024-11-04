@@ -89,5 +89,8 @@ fun ItemEditScreen(
 fun ItemEditScreenPreview() {
     InventoryTheme {
         ItemEditScreen(navigateBack = { /*Do nothing*/ }, onNavigateUp = { /*Do nothing*/ })
+//        val coroutineScope = rememberCoroutineScope()
+//        val coroutineScope = rememberCoroutineScope()
+//        val coroutineScope = rememberCoroutineScope()
     }
 }
